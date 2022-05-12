@@ -17,3 +17,5 @@ router.get("/editar/:id", userController.modifyUser);
 router.post("/editar/:id", userController.modifyAndUpdateSQL);
 
 module.exports = router;
+
+/* Rutas */
